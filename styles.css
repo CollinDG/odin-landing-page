@@ -12,17 +12,13 @@ body {
     font-family: 'Roboto', serif;
 }
 
-body > div {
-    outline: 2px solid black;
-}
-
 h2 {
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .header {
     background-color: #1F2937;
-    flex: 1;
+    height: 6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +37,7 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    flex: 5;
+    height: 22%;
     color: white;
     padding: 0 10%;
     gap: 50px;
@@ -49,10 +45,10 @@ h2 {
 
 .intro button {
     color: white;
-    width: 120px;
-    height: 38px;
+    width: 100px;
+    height: 32px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     border: none;
     outline: none;
@@ -62,13 +58,17 @@ h2 {
 }
 
 .intro img {
-    height: 275px;
+    height: 160px;
     width: auto;
     border-radius: 5px;
 }
 
 .intro h2 {
     margin: 0;
+}
+
+.intro p {
+    font-size: 12px;
 }
 
 .left {
@@ -80,7 +80,7 @@ h2 {
 
 .info {
     display: flex;
-    flex: 5;
+    height: 22%;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -99,7 +99,7 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 40px;
     width: 80%
 }
 
@@ -107,11 +107,21 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100px;
+    font-size: 11px;
 }
 
 .info-box div {
     outline: 3px solid #3882F6;
     border-radius: 8%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    height: 22%;
 }
